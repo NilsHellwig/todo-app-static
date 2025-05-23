@@ -131,5 +131,17 @@ h2 {
     transition: 0.2s;
 }
 
+.task-actions button:hover {
+    color: var(--lightest);
+    background-color: var(--dark);
+}
 
+.task-actions .delete {
+    background-color: var(--light-red);
+    color: var(--dark-red);
+}
 
+.task-actions .delete:hover {
+    background-color: var(--dark-red);
+    color: var(--light-red);
+}
